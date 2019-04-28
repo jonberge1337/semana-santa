@@ -2,7 +2,10 @@ package dos;
 
 public abstract class Forma {
 	
-	public String toString() {
-		
+	public abstract String toString();
+	
+	public void identidad() {
+		System.out.println(toString());
 	}
+	
 }

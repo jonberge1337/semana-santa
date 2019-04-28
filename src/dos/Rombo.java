@@ -1,5 +1,11 @@
 package dos;
 
-public class Rombo {
+public class Rombo extends Forma{
+
+	
+	public String toString() {
+		
+		return "Rombo";
+	}
 
 }
